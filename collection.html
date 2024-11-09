@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!---Googlle fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+     
+</head>
+<body>
+     <!---Navbar-->
+     <nav class="navbar">
+        <h1 class="title">Luckyshop</h1>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="collection.html">Collections</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            
+        </ul>
+
+        <div class="navbar-menutoggle" onclick=" showNavbar()">
+            <img class="menu-icon" src="icons/hamburger-menu.svg">
+        </div>
+     </nav>
+
+      <div class="sidebar">
+        <p class="Closeicon" onclick=" closeNavbar()">  
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+       <div class="side-navbarlinks">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="collection.html">Collections</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+
+<!----Products-->
+     
+
+<div class="product-section">
+    <div class="product-search">
+        <input class="product-search-input" id="search" type="text" placeholder="Search product"  >
+        <i class="fa-solid fa-magnifying-glass" style="margin-top: 2px; margin-left: 10px; margin-right: 10px;" ></i>
+    </div>
+
+
+    <div class="products-items" id="products">
+
+        <div class="products-images">
+            <img class="ppic" src="imgaes/tshirt.jpg" >
+            <p>white tshirt</p>
+        </div>
+    
+    
+    
+        <div class="products-images">
+            <img class="ppic" src="imgaes/checkedshirt2.jpg" >
+            <p>red checkedshirt</p>
+        </div>
+    
+    
+   
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt4.jpg" >
+            <p>long white shirt</p>
+        </div>
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt13.jpg" >
+            <p>casual shirt</p>
+        </div>
+
+        
+    
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt8.jpg" >
+            <p>summer tshirt</p>
+        </div>
+    
+        <div class="products-images">
+            <img class="ppic" src="imgaes/checked shirt.webp" >
+            <p>checked shirt</p>
+        </div>
+    
+        <div class="products-images">
+            <img class="ppic" src="imgaes/UsPoloTshirt.jpg" >
+            <p>Orange tshirt UsPoloShirt</p>
+        </div>
+    
+        <div class="products-images">
+            <img class="ppic" src="imgaes/UsPoloShirt2.jpg" >
+            <p>white shirt</p>
+        </div>
+
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt7.jpg" >
+            <p>tshirt</p>
+        </div>
+        
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt10.jpg" >
+            <p>fanacy tshirt</p>
+        </div>
+
+
+        <div class="products-images">
+            <img class="ppic" src="imgaes/shirt5.jpg" >
+            <p>flower shirt</p>
+        </div>
+
+        <div class="products-images">
+            <img class="ppic" src="imgaes/white shirt.webp  " >
+            <p>formel shirt </p>
+        </div>
+
+    
+    </div>
+    
+</div>
+
+
+             
+
+
+
+  <!-----Footer-->
+
+
+
+  <div class="footer">
+    <div class="footer-content"> 
+        <h2>Luckyshop</h2>
+        <p style="margin-bottom: 0px">The Standard  Richard McClintock,ked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+        <p style="margin-bottom: 0px"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i></p>
+        <p>@2034 Showpy.com</p>
+
+    </div>
+  </div>
+
+
+               <script src="collection.js"></script> 
+               <script src="script.js"></script>
+
+</body>
+</html>

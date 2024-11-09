@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!---Googlle fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+     
+</head>
+<body>
+     <!---Navbar--> 
+     <nav class="navbar">
+        <h1 class="title">Luckyshop</h1>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="collection.html">Collections</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            
+        </ul>
+
+        <div class="navbar-menutoggle" onclick=" showNavbar()">
+            <img class="menu-icon" src="icons/hamburger-menu.svg">
+        </div>
+     </nav>
+
+      <div class="sidebar">
+        <p class="Closeicon" onclick=" closeNavbar()">  
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+       <div class="side-navbarlinks">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="collection.html">Collections</a></p>
+        <p><a href="contact.html">Contact</a></p>
+    </div>
+</div>
+     
+
+
+<!----contact-->
+   
+  <div class="contact-section">
+    <div class="contact-form">
+        <h1>Contact Us</h1>   
+        <p> <label class="labelname" for="Name">Name:</label> <br>
+            <input class="name-input" type="text" id="Name" ></p>
+       
+       <p><label for="Email">Email:</label> <br>
+        <input class="name-input" type="text"  id="Email" ></p>
+        
+
+     <p> <label for="Message">Message:</label><br>
+
+    <textarea class="message-box" rows="4" cols="50" name="comment" form="usrform" id="Message"></textarea>
+    </p>
+       
+
+        <button class="submit-btn">Submit</button>
+
+
+
+
+    </div>
+  </div>
+
+
+
+  <!-----Footer-->
+
+  <div class="footer">
+    <div class="footer-content"> 
+        <h2>Showpy</h2>
+        <p style="margin-bottom: 0px">The Standard  Richard McClintock,ked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+        <p style="margin-bottom: 0px"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i></p>
+        <p>@2034 Showpy.com</p>
+
+    </div>
+  </div>
+
+               <script src="script.js"></script>
+</body>
+</html>
